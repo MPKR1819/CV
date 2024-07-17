@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My video collection</title>
+        <style>
+              .thumbnail{
+                  width: 400px;
+                  height: 200px;
+                  object-fit: cover;
+                  object-position: right;
+                  border-width: 1px;
+                  border-style: dotted;
+                  border-color: black;
+              }
+              .searchbar{
+                  font-size: 15px;
+                  margin: 5px;
+                  display: block;
+              }
+              .videoinfo{
+                  display: grid;
+                  grid-template-columns: 50px 1fr;
+              }
+              .videotitle{
+                  font-size: large;
+                  color: rgb(248, 62, 6);
+                 
+                  margin-right: 5px;
+              }
+              .author,.stats{
+                  font-size: x-small;
+                  color: rgb(0, 5, 5);
+                            }
+               .video{
+                   display: inline-block;
+                   vertical-align: top;
+               }
+               .channelpic{
+                   display: inline-block;
+                   vertical-align: top;
+                   border-radius: 50px;
+               
+               }
+               .channelinfo{
+                   display: inline-block;
+                   vertical-align: top;
+                   margin-left: 10px;
+               }
+        </style>
+    </head>
+    <body>
+        <input class="searchbar" type="textbox" placeholder="search videos...">
+       <div class="video">
+           <div>
+            <img class="thumbnail" src="subha 3.jpg">
+           </div>
+           <div class="videoinfo">
+            <div class="channelpic">
+                <img src="profile.jpg">
+            </div>
+            <div class="channelinfo"> 
+                  <p class="videotitle">Subha with wine along with her friend..</p>
+                <p class="author">
+                    SUBHASHINI REDDY
+                </p>
+                <p class="stats">
+                    5.6M views &#183; 1 year ago 
+                </p>
+            </div>
+           </div>
+         </div>  
+       </div>
+        <div class="video">
+            <div>
+                <img class="thumbnail" src="subha 17.jpg">
+            </div>
+            <div class="videoinfo">
+            <div class="channelpic">
+                <img src="profile.jpg">
+            </div>
+            <div class="channelinfo">
+                <p class="videotitle">Subha on balcony with her favourite dress...</p>
+        <p class="author">
+            SUBHASHINI REDDY
+        </p>
+        <p class="stats">
+            6M views &#183; 6 months ago 
+        </p>
+            </div>
+           </div>
+        </div>
+    </body>
+</html>
